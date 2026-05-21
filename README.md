@@ -1,0 +1,79 @@
+---
+title: Cloud Controls Evidence Kit
+description:
+  A drop-in scaffold for organizing the engineering controls and evidence that customer security
+  reviews ask for.
+---
+
+# Cloud Controls Evidence Kit
+
+A drop-in scaffold for B2B SaaS and AI-product teams to organize the engineering controls and
+evidence that customer security reviews, SOC 2 readiness work, and compliance platforms (Vanta,
+Drata, Secureframe) ask for. Markdown source, MIT licensed, free to fork, edit, and use.
+
+## What's inside
+
+| Folder / file                                         | What it is                                                                                                                                                    |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `controls-map.md`                                     | Master mapping: control → required evidence → where to find it → owner → update cadence. ~30 controls across 6 categories.                                    |
+| `questionnaire-answer-examples.md`                    | 12 template answers for the questions that come up on customer security questionnaires (MFA, audit logs, backups, etc.).                                      |
+| `evidence-folder-template/`                           | Ready-to-use folder layout — six numbered category folders, each with a README and 3–4 evidence templates. Drop into your evidence repo and start filling in. |
+| `platforms/aws.md`, `gcp.md`, `azure.md`, `github.md` | Where to find each piece of evidence on each platform: console paths, CLI commands, exports that satisfy auditors.                                            |
+| `LICENSE`                                             | MIT. Use it, edit it, ship it, redistribute it.                                                                                                               |
+
+## How to use it
+
+1. **Fork or download** this kit (link on the
+   [evidence kit page on musabdulai.com](https://musabdulai.com/evidence-kit)).
+2. **Drop `evidence-folder-template/` into your own private repo** and rename it to whatever your
+   team calls evidence. Many teams use `compliance/` or `audit/`.
+3. **Open `controls-map.md`** and adapt the table to your actual systems. Delete rows that don't
+   apply, add rows for systems we don't cover.
+4. **Fill in each template** as you collect the evidence. Each template tells you what goes there,
+   where to find it, and how often to refresh it.
+5. **When a customer questionnaire arrives**, paste answers from `questionnaire-answer-examples.md`
+   and attach the matching evidence from your folder.
+
+## Tone and scope
+
+This kit is opinionated and concrete. It names specific tools (CloudTrail, Vanta, GitHub branch
+protection, Vertex AI) instead of staying framework-agnostic — because that's how the controls
+actually map at most SaaS shops.
+
+It does **not** cover:
+
+- Drafting policies (privacy policy, security policy text) — talk to a lawyer; tools like StrongDM's
+  [Comply](https://github.com/strongdm/comply) are good for policy drafting.
+- Compliance-platform-specific configuration (each platform has its own docs).
+- Threat modeling, red-team plans, or incident response procedures — different scope.
+
+This kit covers **the operational evidence engineering teams have to produce** when a buyer or
+auditor asks for proof that a control is real.
+
+## Updating cadence
+
+Customer security reviews and auditors look for evidence that is **fresh**. The rule of thumb on
+cadence:
+
+| Evidence type                                                        | Refresh                         |
+| -------------------------------------------------------------------- | ------------------------------- |
+| Policy / config snapshots (MFA policy, branch protection, retention) | Quarterly                       |
+| Operational logs / exports (IAM key inventory, deploy history)       | Quarterly                       |
+| Restore tests, DR drills                                             | Quarterly or semi-annually      |
+| Incident runbook, on-call rotation                                   | Annually unless a real incident |
+| Vendor reviews, third-party access                                   | Annually                        |
+
+Each evidence template includes a recommended cadence.
+
+## License
+
+[MIT](./LICENSE). Use it however helps you ship.
+
+## Maintained by
+
+Musah Abdulai · cloud controls implementation for B2B SaaS and AI-product teams ·
+[musabdulai.com](https://musabdulai.com) · hello@musabdulai.com
+
+If this kit saved you a day of evidence-gathering work and you'd like an engineer to actually do the
+work for you, the website has a sample report showing what a Controls Review deliverable looks like:
+[musabdulai.com/sample-report](https://musabdulai.com/sample-report).
