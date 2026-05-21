@@ -1,10 +1,3 @@
----
-title: AWS evidence guide
-description:
-  Where to find each piece of controls evidence on AWS — console paths, CLI commands, exports that
-  satisfy auditors.
----
-
 # AWS evidence guide
 
 Per-control reference for gathering compliance evidence on AWS. For each control in

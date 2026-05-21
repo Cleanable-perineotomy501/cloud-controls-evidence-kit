@@ -1,8 +1,3 @@
----
-title: CI/CD and change management
-description: Evidence that production code changes are reviewed, approved, and traceable.
----
-
 # 03 · CI/CD and change management
 
 Evidence that code changes to production go through review, approval, and leave an audit trail. SOC

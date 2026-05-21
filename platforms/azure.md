@@ -1,10 +1,3 @@
----
-title: Azure evidence guide
-description:
-  Where to find each piece of controls evidence on Azure — console paths, az CLI commands, exports
-  that satisfy auditors.
----
-
 # Azure evidence guide
 
 Per-control reference for gathering compliance evidence on Microsoft Azure.

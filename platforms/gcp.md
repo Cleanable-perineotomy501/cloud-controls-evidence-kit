@@ -1,10 +1,3 @@
----
-title: GCP evidence guide
-description:
-  Where to find each piece of controls evidence on GCP — console paths, gcloud commands, exports
-  that satisfy auditors.
----
-
 # GCP evidence guide
 
 Per-control reference for gathering compliance evidence on Google Cloud Platform.

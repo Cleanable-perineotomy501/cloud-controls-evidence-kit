@@ -1,10 +1,3 @@
----
-title: Release evidence
-control: 3.4
-owner: Engineering leads
-cadence: Quarterly (export)
----
-
 # Release evidence
 
 The audit trail of "who shipped what to production, when, and who approved it." This is the

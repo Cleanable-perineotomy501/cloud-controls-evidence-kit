@@ -1,9 +1,3 @@
----
-title: Questionnaire Answer Examples
-description:
-  Template answers for the questions that show up on most customer security questionnaires.
----
-
 # Questionnaire Answer Examples
 
 Template answers for the 12 questions that come up on almost every customer security questionnaire.

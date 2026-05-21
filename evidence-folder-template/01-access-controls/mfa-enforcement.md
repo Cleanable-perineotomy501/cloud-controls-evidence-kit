@@ -1,10 +1,3 @@
----
-title: MFA enforcement
-control: 1.1
-owner: IT / Security
-cadence: Quarterly
----
-
 # MFA enforcement
 
 The single most-requested control on customer security questionnaires. Buyers want to see that

@@ -1,10 +1,3 @@
----
-title: Audit log configuration
-control: 2.1
-owner: Platform
-cadence: Quarterly
----
-
 # Audit log configuration
 
 Evidence that audit logging is enabled across **every** production account / project / subscription

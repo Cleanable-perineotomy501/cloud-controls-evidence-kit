@@ -1,10 +1,3 @@
----
-title: GitHub evidence guide
-description:
-  Where to find each piece of controls evidence in GitHub — UI paths, gh CLI commands, exports that
-  satisfy auditors.
----
-
 # GitHub evidence guide
 
 Per-control reference for gathering compliance evidence in GitHub. Most engineering-led SOC 2

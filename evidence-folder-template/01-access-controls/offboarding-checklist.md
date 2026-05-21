@@ -1,10 +1,3 @@
----
-title: Offboarding checklist
-control: 1.4
-owner: HR + IT
-cadence: Per departure
----
-
 # Offboarding checklist
 
 Auditors and customer security reviews ask for evidence that access is revoked promptly when someone

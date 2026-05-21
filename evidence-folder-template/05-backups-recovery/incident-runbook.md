@@ -1,10 +1,3 @@
----
-title: Incident runbook
-control: 5.3
-owner: Engineering leads
-cadence: Annually unless an incident
----
-
 # Incident runbook
 
 The "what to do when something is on fire in production" document. Auditors and customer security

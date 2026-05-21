@@ -1,10 +1,3 @@
----
-title: Branch protection
-control: 3.1
-owner: Engineering leads
-cadence: Quarterly
----
-
 # Branch protection
 
 The rule that prevents direct pushes to the production branch and requires reviewed PRs. Evidence is

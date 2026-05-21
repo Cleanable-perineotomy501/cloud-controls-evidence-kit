@@ -1,8 +1,3 @@
----
-title: AI workload controls
-description: Evidence specific to teams shipping LLMs, RAG, agents, and tool-calling features.
----
-
 # 06 · AI workload controls
 
 The AI-specific controls customer procurement teams have started asking about: who can call the

@@ -1,8 +1,3 @@
----
-title: Evidence folder template
-description: How to organize the evidence folder, naming conventions, and refresh cadence.
----
-
 # Evidence folder template
 
 Drop this directory structure into your private compliance/evidence repo and adapt it to your stack.

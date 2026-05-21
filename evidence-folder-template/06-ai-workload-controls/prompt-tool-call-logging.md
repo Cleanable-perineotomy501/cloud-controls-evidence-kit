@@ -1,10 +1,3 @@
----
-title: Prompt / tool-call logging
-control: 6.2
-owner: AI / Security
-cadence: Annually (policy), Quarterly (sample)
----
-
 # Prompt / tool-call logging
 
 Evidence that prompts, tool calls, and outputs are logged with a policy that bounds retention and

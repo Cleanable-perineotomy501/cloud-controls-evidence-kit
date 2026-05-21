@@ -1,8 +1,3 @@
----
-title: Controls Map
-description: Master mapping of cloud controls to required evidence, owners, and refresh cadence.
----
-
 # Controls Map
 
 The 30 controls that come up on the vast majority of customer security questionnaires, SOC 2

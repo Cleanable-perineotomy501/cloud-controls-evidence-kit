@@ -1,8 +1,3 @@
----
-title: Backups, recovery, and availability
-description: Evidence that backups exist, are tested, and that there's a documented recovery plan.
----
-
 # 05 · Backups, recovery, and availability
 
 Evidence that data can be recovered — verified by actual restore tests, not just backup-job success

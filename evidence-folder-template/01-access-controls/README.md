@@ -1,9 +1,3 @@
----
-title: Access controls
-description:
-  Evidence for MFA enforcement, IAM hygiene, service-account key inventory, and offboarding.
----
-
 # 01 · Access controls
 
 Evidence that the people and machines accessing production systems have appropriate, current

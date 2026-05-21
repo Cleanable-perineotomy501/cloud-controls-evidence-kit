@@ -1,10 +1,3 @@
----
-title: Deploy approvals
-control: 3.2
-owner: Engineering leads
-cadence: Quarterly
----
-
 # Deploy approvals
 
 Branch protection gates the merge; deploy approvals gate the actual production push. SOC 2 wants

@@ -1,10 +1,3 @@
----
-title: AI data retention and tenant isolation
-control: 6.4 + 6.5
-owner: AI / Legal
-cadence: Annually (policy), Quarterly (review)
----
-
 # AI data retention and tenant isolation
 
 Evidence that retrieval indices, embeddings, prompt logs, and other AI-derived data are partitioned

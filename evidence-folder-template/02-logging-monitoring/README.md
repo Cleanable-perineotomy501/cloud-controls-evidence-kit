@@ -1,10 +1,3 @@
----
-title: Logging and monitoring
-description:
-  Evidence that cloud audit logs, application logs, and security alerts are configured, retained,
-  and routed.
----
-
 # 02 · Logging and monitoring
 
 Evidence that you can answer "what happened in production?" and "did anyone notice?" — with logs

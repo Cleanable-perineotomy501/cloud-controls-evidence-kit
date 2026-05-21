@@ -1,10 +1,3 @@
----
-title: Alert routing
-control: 2.4
-owner: Security
-cadence: Annually (config), per-incident (sample)
----
-
 # Alert routing
 
 Evidence that security-relevant events route to a human (or documented runbook) within minutes. "We

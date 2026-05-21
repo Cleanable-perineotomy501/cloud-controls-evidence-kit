@@ -1,10 +1,3 @@
----
-title: Audit log retention policy
-control: 2.2 + 2.5
-owner: Platform
-cadence: Annually (config), Quarterly (sample)
----
-
 # Audit log retention policy
 
 Buyers and auditors want logs that cover the full review period (typically 12 months) AND are

@@ -1,10 +1,3 @@
----
-title: IAM quarterly review
-control: 1.2 + 1.3 + 1.5
-owner: Security + Platform
-cadence: Quarterly
----
-
 # IAM quarterly review
 
 Periodic review of who has privileged access — to the IdP, cloud consoles, code repositories, and

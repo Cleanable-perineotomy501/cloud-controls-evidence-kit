@@ -1,10 +1,3 @@
----
-title: Cloud Controls Evidence Kit
-description:
-  A drop-in scaffold for organizing the engineering controls and evidence that customer security
-  reviews ask for.
----
-
 # Cloud Controls Evidence Kit
 
 A drop-in scaffold for B2B SaaS and AI-product teams to organize the engineering controls and
@@ -67,7 +60,8 @@ Each evidence template includes a recommended cadence.
 
 ## License
 
-[MIT](./LICENSE). Use it however helps you ship.
+[MIT](https://github.com/musabdulai-io/cloud-controls-evidence-kit/blob/main/LICENSE). Use it
+however helps you ship.
 
 ## Maintained by
 

@@ -1,10 +1,3 @@
----
-title: Spend caps and abuse handling
-control: 6.3 + 6.6
-owner: AI / Platform / Security
-cadence: Quarterly
----
-
 # Spend caps and abuse handling
 
 Evidence that AI features have per-tenant rate-limits and spend caps so a single tenant (or a

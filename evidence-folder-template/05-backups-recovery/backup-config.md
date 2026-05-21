@@ -1,10 +1,3 @@
----
-title: Backup configuration
-control: 5.1
-owner: Platform / SRE
-cadence: Annually (config), Quarterly (success log)
----
-
 # Backup configuration
 
 The configured backup schedule and retention for production data stores. Evidence is the actual

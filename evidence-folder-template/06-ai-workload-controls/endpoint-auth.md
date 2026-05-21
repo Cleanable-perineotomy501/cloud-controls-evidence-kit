@@ -1,10 +1,3 @@
----
-title: Model endpoint authentication
-control: 6.1
-owner: AI / Platform
-cadence: Quarterly
----
-
 # Model endpoint authentication
 
 Evidence that every inference endpoint requires authentication, that unauthenticated requests are

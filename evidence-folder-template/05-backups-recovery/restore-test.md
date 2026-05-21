@@ -1,10 +1,3 @@
----
-title: Restore test
-control: 5.2
-owner: Platform / SRE
-cadence: Quarterly
----
-
 # Restore test
 
 The single piece of evidence that most teams don't have but most buyers ask for: **a documented
